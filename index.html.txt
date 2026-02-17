@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Solivia - Smart Solar Bags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Solivia</h1>
+    <p>Rechargez votre monde avec l’énergie du soleil</p>
+    <button onclick="scrollToProducts()">Découvrir les produits</button>
+</header>
+
+<section id="about">
+    <h2>À propos de Solivia</h2>
+    <p>
+        Solivia est une marque de sacs intelligents équipés de panneaux solaires
+        permettant de recharger vos appareils partout, à tout moment.
+    </p>
+</section>
+
+<section id="products">
+    <h2>Nos produits</h2>
+
+    <div class="product">
+        <img src="images/bag1.jpg" alt="Sac solaire">
+        <h3>Sac à dos solaire</hh3>
+        <p>Idéal pour les étudiants et les voyageurs.</p>
+    </div>
+
+    <div class="product">
+        <img src="images/bag2.jpg" alt="Sac solaire">
+        <h3>Cartable solaire</h3>
+        <p>Parfait pour une utilisation quotidienne.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Solivia – Tous droits réservés</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
